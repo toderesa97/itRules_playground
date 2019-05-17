@@ -1,0 +1,7 @@
+def type(Email)
+    From: $from
+    To: $To...[, ]
+    $Subject
+
+    $Body...[$NL]
+end

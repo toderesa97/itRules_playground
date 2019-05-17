@@ -1,0 +1,42 @@
+def type(CourseContent)
+    $teacher
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">ID</th>
+          <th scope="col">Mark</th>
+        </tr>
+      </thead>
+      <tbody>
+        $Students
+      </tbody>
+    </table>
+end
+
+def type(teacher)
+    The teacher is $Name, and these are $sex+type students who study $subject
+end
+
+def type(subject)
+    $name
+end
+
+def attribute(MALE) trigger(type)
+    his
+end
+
+def attribute(FEMALE) trigger(type)
+    her
+end
+
+def type(Student)
+    <tr>
+        <th scope="row>N/A</th>
+        <td>$Name</td>
+        <td>$Id</td>
+        <td>$Mark</td>
+    </tr>
+end
